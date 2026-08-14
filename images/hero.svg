@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="525" viewBox="0 0 1200 525" role="img" aria-labelledby="title desc">
+  <title id="title">FreshBasket local produce hero illustration</title>
+  <desc id="desc">A basket of vegetables with local farm fields behind it</desc>
+  <rect width="1200" height="525" fill="#fff4d6"/>
+  <circle cx="1040" cy="88" r="52" fill="#e7b94c"/>
+  <path d="M0 300Q260 180 520 300T1200 280V525H0z" fill="#9dbb7e"/>
+  <path d="M0 360Q300 250 600 365T1200 340V525H0z" fill="#4d7c5c"/>
+  <g transform="translate(470 130)">
+    <path d="M60 140h330l-34 215H94z" fill="#d79d4e" stroke="#1f4d3a" stroke-width="12"/>
+    <path d="M130 140c18-92 60-125 95-125s76 33 94 125" fill="none" stroke="#1f4d3a" stroke-width="14"/>
+    <circle cx="125" cy="125" r="55" fill="#d94d3f"/>
+    <ellipse cx="230" cy="105" rx="46" ry="74" fill="#6e9d49"/>
+    <path d="M320 155c-60-80 25-118 77-72-10 66-36 91-77 72z" fill="#2d6a3f"/>
+    <path d="M184 130c-45-70 20-104 64-62-6 52-28 76-64 62z" fill="#f0a540"/>
+  </g>
+  <text x="70" y="95" font-family="Arial, sans-serif" font-size="48" font-weight="700" fill="#1f4d3a">Fresh food. Fair access.</text>
+  <text x="72" y="145" font-family="Arial, sans-serif" font-size="26" fill="#5c574b">Supporting Thohoyandou's community and local farmers.</text>
+</svg>
