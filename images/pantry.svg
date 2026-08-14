@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="400" viewBox="0 0 640 400" role="img" aria-labelledby="title">
+  <title id="title">Pantry grocery illustration</title>
+  <rect width="640" height="400" rx="24" fill="#fff4d6"/>
+  <rect x="82" y="110" width="150" height="220" rx="10" fill="#d7b46a" stroke="#1f4d3a" stroke-width="8"/>
+  <text x="108" y="220" font-family="Arial, sans-serif" font-size="27" font-weight="700" fill="#1f4d3a">MAIZE</text>
+  <rect x="260" y="145" width="125" height="185" rx="12" fill="#f1efe5" stroke="#1f4d3a" stroke-width="8"/>
+  <text x="287" y="245" font-family="Arial, sans-serif" font-size="27" font-weight="700" fill="#1f4d3a">RICE</text>
+  <path d="M448 126h86l17 204H431z" fill="#e7b94c" stroke="#1f4d3a" stroke-width="8"/>
+  <rect x="464" y="74" width="54" height="55" rx="8" fill="#4d7c5c"/>
+  <text x="451" y="240" font-family="Arial, sans-serif" font-size="25" font-weight="700" fill="#1f4d3a">OIL</text>
+</svg>
