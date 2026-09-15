@@ -1,66 +1,33 @@
-# Part 1 Submission Checklist
+# Part 2 submission checklist
 
-## Lecturer approval
+## Approval and feedback
 
-- [ ] Both proposals were submitted before the Part 1 due date.
-- [ ] FreshBasket Neighbourhood Grocer was approved by the lecturer.
-- [ ] Any lecturer-requested corrections were completed.
+- [x] Graded rubric reviewed: 60/100.
+- [x] Approved Proposal 1 confirmed as Savanna Flame Kitchen.
+- [x] Feedback responses recorded in README changelog.
 
-## Website project proposal
+## Website
 
-- [x] Organisation overview, mission, vision and target audience
-- [x] Specific goals, objectives and KPIs
-- [x] Current website analysis
-- [x] Proposed features and functionality
-- [x] Design choices and low-fidelity wireframes
-- [x] Technical requirements and justification
-- [x] Timeline, milestones and budget
-- [x] Harvard references
-- [ ] Required AI screenshots inserted into Annexure A
+- [x] Five linked semantic HTML pages.
+- [x] External stylesheet linked on every page.
+- [x] Base, typography, layout and decorative CSS.
+- [x] Hover, focus and active states.
+- [x] Desktop, tablet and mobile breakpoints.
+- [x] Relative units and responsive images.
+- [x] Expanded comments, sitemap, changelog and references.
+- [ ] Student has reviewed and can explain the code.
+- [ ] All navigation links and forms tested locally.
+- [ ] Desktop, tablet and mobile screenshots added.
+- [ ] Required AI acknowledgement/evidence included.
 
-## Research and content
+## Suggested Part 2 Git commits
 
-- [x] Content research document
-- [x] Source register
-- [x] Original local image assets
-- [x] Clear file-naming conventions
-- [x] Separate research ZIP archive
+1. `Apply Part 1 feedback and switch to approved Savanna proposal`
+2. `Add Savanna branding and responsive image assets`
+3. `Style desktop layouts with external CSS`
+4. `Add tablet and mobile responsive breakpoints`
+5. `Expand sitemap changelog comments and references`
+6. `Add responsive testing evidence for Part 2`
 
-## Website structure
-
-- [x] `index.html`
-- [x] `about.html`
-- [x] `products.html`
-- [x] `enquiry.html`
-- [x] `contact.html`
-- [x] Sitemap
-- [x] Semantic HTML elements
-- [x] Basic content, images, headings, paragraphs and lists
-- [x] Working navigation between all five pages
-- [x] HTML comments and readable indentation
-- [x] Link, image and form-label validation completed
-
-## GitHub — complete under the student's account
-
-- [ ] Join or create the lecturer-required private GitHub repository.
-- [ ] Copy the project files into the local repository.
-- [ ] Make multiple descriptive commits rather than one final commit.
-- [ ] Push all commits to the remote private repository.
-- [ ] Confirm the repository contains the README and all five HTML pages.
-- [ ] Submit the correct private repository link on the LMS.
-
-Suggested commit sequence:
-
-1. `Create FreshBasket project structure and README`
-2. `Add homepage and shared navigation`
-3. `Add About and Products page content`
-4. `Add Enquiry and Contact forms`
-5. `Add sitemap research sources and image assets`
-6. `Validate links and complete Part 1 documentation`
-
-## Final LMS submission
-
-- [ ] Revised Website Project Proposal
-- [ ] FreshBasket Content Research ZIP
-- [ ] GitHub repository link
-- [ ] Any required PoE cover sheet or declaration
+- [ ] All commits pushed to the existing GitHub Classroom repository.
+- [ ] Repository link submitted to the LMS.

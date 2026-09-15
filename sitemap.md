@@ -1,21 +1,27 @@
-# FreshBasket Website Sitemap
+# Savanna Flame Kitchen sitemap
 
 ```text
 Home (index.html)
-├── About Us (about.html)
-├── Products and Specials (products.html)
-├── Enquiry and Orders (enquiry.html)
-└── Contact and Locations (contact.html)
+|-- About (about.html)
+|-- Menu (menu.html)
+|   `-- Enquiry (enquiry.html)
+`-- Contact (contact.html)
 ```
 
-## Page purposes
+Every page contains the complete primary navigation, so visitors can move directly between all five pages without returning to Home.
 
-| Page | Purpose | Main content |
-|---|---|---|
-| Home | Introduce FreshBasket and direct visitors to important actions | Hero, local produce, coupons, community opportunity and calls to action |
-| About Us | Explain the organisation and build trust | History, community shares, mission, vision, values and audience |
-| Products | Present the proposed store offering | Produce, pantry goods, household items, specials and coupons |
-| Enquiry | Collect detailed service enquiries | Product availability, collection, delivery, supplier, share and employment enquiries |
-| Contact | Provide location and general contact information | Two locations, hours, contact details and contact form |
+| Page | Main purpose | Important content | Primary next action |
+|---|---|---|---|
+| Home | Introduce the approved restaurant concept | 24/7 service, meal types, savings and service options | Explore Menu |
+| About | Build trust and explain the need | Story, mission, vision, values and target audience | View Menu or Enquiry |
+| Menu | Present the proposed offering | Traditional meals, fast food, drinks, student and senior offers | Start Enquiry |
+| Enquiry | Collect service-specific questions | Customer details, enquiry type, preferred response/time and message | Submit enquiry in Part 3 |
+| Contact | Provide general business information | Two proposed locations, telephone, email, hours and general form | Send message in Part 3 |
 
-Every page uses the same five-item navigation menu so users can move directly between all pages.
+## Typical user flows
+
+1. Hungry visitor: Home -> Menu -> Enquiry.
+2. Student seeking value: Home -> Menu specials -> Enquiry.
+3. Customer checking access: Home -> Contact.
+4. Catering customer: Enquiry -> Contact.
+5. Visitor learning about the business: Home -> About -> Menu.
