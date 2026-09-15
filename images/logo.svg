@@ -1,14 +1,1 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="660" height="240" viewBox="0 0 660 240" role="img" aria-labelledby="title desc">
-  <title id="title">FreshBasket Neighbourhood Grocer logo</title>
-  <desc id="desc">A dark green basket with leaves beside the FreshBasket name</desc>
-  <rect width="660" height="240" rx="28" fill="#fff4d6"/>
-  <g transform="translate(34 36)" fill="none" stroke="#1f4d3a" stroke-width="14" stroke-linecap="round" stroke-linejoin="round">
-    <path d="M24 74h170l-18 92H42z"/>
-    <path d="M62 74c12-46 34-62 47-62s35 16 47 62"/>
-    <path d="M93 42c-8-30 10-40 32-35-1 22-12 37-32 35z" fill="#4d7c5c"/>
-    <path d="M126 44c10-28 30-30 49-18-8 21-25 29-49 18z" fill="#7fa36b"/>
-  </g>
-  <text x="258" y="108" font-family="Arial, sans-serif" font-size="54" font-weight="700" fill="#1f4d3a">FreshBasket</text>
-  <text x="260" y="154" font-family="Arial, sans-serif" font-size="25" fill="#4d7c5c">NEIGHBOURHOOD GROCER</text>
-  <text x="260" y="191" font-family="Arial, sans-serif" font-size="20" fill="#5c574b">Community • Local • Affordable</text>
-</svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 150" role="img" aria-labelledby="title desc"><title id="title">Savanna Flame Kitchen logo</title><desc id="desc">A cream cooking pot above a warm flame beside the restaurant name.</desc><rect width="520" height="150" rx="24" fill="#252525"/><path d="M62 75h82v18c0 25-18 40-41 40S62 118 62 93z" fill="#fff7e8"/><path d="M53 68h100v13H53zM82 52h42v11H82z" fill="#fff7e8"/><path d="M103 15c13 16 7 25-2 34-8-10-13-19 2-34zm25 12c10 13 5 20-2 27-6-8-10-15 2-27z" fill="#e06a3b"/><text x="178" y="67" fill="#fff7e8" font-family="Georgia,serif" font-size="34" font-weight="700">SAVANNA FLAME</text><text x="180" y="108" fill="#e6b95e" font-family="Arial,sans-serif" font-size="25" font-weight="700" letter-spacing="5">KITCHEN</text></svg>

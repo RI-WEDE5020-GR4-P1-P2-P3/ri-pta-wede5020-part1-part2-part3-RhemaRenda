@@ -1,83 +1,15 @@
 <!DOCTYPE html>
 <html lang="en-ZA">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Contact FreshBasket and view its proposed Thohoyandou and Sibasa locations.">
-  <title>Contact and Locations | FreshBasket</title>
-</head>
+<head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><meta name="description" content="Contact Savanna Flame Kitchen and view its proposed Thohoyandou restaurant and collection point information."><title>Contact and Location | Savanna Flame Kitchen</title><link rel="stylesheet" href="css/style.css"></head>
 <body>
-  <header>
-    <a href="index.html"><img src="images/logo.svg" alt="FreshBasket Neighbourhood Grocer logo" width="220" height="80"></a>
-    <nav aria-label="Main navigation">
-      <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="about.html">About Us</a></li>
-        <li><a href="products.html">Products</a></li>
-        <li><a href="enquiry.html">Enquiry</a></li>
-        <li><a href="contact.html" aria-current="page">Contact</a></li>
-      </ul>
-    </nav>
-  </header>
-
+  <header class="site-header"><a class="brand" href="index.html"><img src="images/logo.svg" alt="Savanna Flame Kitchen logo" width="260" height="75"></a><nav aria-label="Main navigation"><ul><li><a href="index.html">Home</a></li><li><a href="about.html">About</a></li><li><a href="menu.html">Menu</a></li><li><a href="enquiry.html">Enquiry</a></li><li><a href="contact.html" aria-current="page">Contact</a></li></ul></nav></header>
   <main>
-    <header>
-      <h1>Contact FreshBasket</h1>
-      <p>The organisation and contact details below are fictional and were created for this student project.</p>
-    </header>
-
-    <!-- More than one location is included as required by the assessment brief. -->
-    <section aria-labelledby="locations-title">
-      <h2 id="locations-title">Proposed locations</h2>
-      <article>
-        <h3>Thohoyandou Main Store</h3>
-        <address>Thohoyandou Central, Limpopo, South Africa</address>
-        <p>Main grocery store, customer service and community-share information.</p>
-      </article>
-      <article>
-        <h3>Sibasa Collection Hub</h3>
-        <address>Sibasa, Limpopo, South Africa</address>
-        <p>Proposed collection point for confirmed online or telephone orders.</p>
-      </article>
-    </section>
-
-    <section aria-labelledby="details-title">
-      <h2 id="details-title">Contact details</h2>
-      <p>Telephone: <a href="tel:+27150000000">015 000 0000</a> (fictional)</p>
-      <p>Email: <a href="mailto:hello@freshbasket.example">hello@freshbasket.example</a></p>
-      <p>Proposed hours: Monday to Sunday, 07:00–20:00</p>
-    </section>
-
-    <!-- General contact form; form processing and JavaScript validation follow in Part 3. -->
-    <section aria-labelledby="contact-form-title">
-      <h2 id="contact-form-title">Send a general message</h2>
-      <form action="#" method="post">
-        <p>
-          <label for="contact-name">Full name</label><br>
-          <input type="text" id="contact-name" name="contact-name" autocomplete="name" required>
-        </p>
-        <p>
-          <label for="contact-email">Email address</label><br>
-          <input type="email" id="contact-email" name="contact-email" autocomplete="email" required>
-        </p>
-        <p>
-          <label for="contact-subject">Subject</label><br>
-          <input type="text" id="contact-subject" name="contact-subject" required>
-        </p>
-        <p>
-          <label for="contact-message">Message</label><br>
-          <textarea id="contact-message" name="contact-message" rows="8" cols="50" required></textarea>
-        </p>
-        <button type="submit">Send message</button>
-      </form>
-      <p><strong>Part 1 notice:</strong> This form is not yet connected to a server. Validation and email processing will be added in Part 3.</p>
-    </section>
+    <header class="page-intro"><p class="eyebrow">Open 24 hours</p><h1>Contact Savanna Flame Kitchen</h1><p>The organisation and contact details below are fictional and were created for this student project.</p></header>
+    <!-- Location cards separate the main restaurant from the proposed collection point. -->
+    <section class="section" aria-labelledby="locations-title"><h2 id="locations-title">Proposed locations</h2><div class="two-column"><article class="card"><h3>Thohoyandou Restaurant</h3><address>Thohoyandou Central, Limpopo, South Africa</address><p>Planned 24-hour dine-in, takeaway and customer service.</p></article><article class="card"><h3>Sibasa Collection Point</h3><address>Sibasa, Limpopo, South Africa</address><p>A proposed collection point for confirmed orders during advertised hours.</p></article></div></section>
+    <section class="section callout" aria-labelledby="details-title"><h2 id="details-title">Contact details</h2><p>Telephone: <a href="tel:+27150000000">015 000 0000</a> (fictional)</p><p>Email: <a href="mailto:hello@savannaflame.example">hello@savannaflame.example</a></p><p>Main restaurant hours: 24 hours, Monday to Sunday</p></section>
+    <!-- This general message form has a different purpose from the service enquiry form. -->
+    <section class="section form-section" aria-labelledby="contact-form-title"><h2 id="contact-form-title">Send a general message</h2><form action="#" method="post"><p><label for="contact-name">Full name</label><br><input type="text" id="contact-name" name="contact-name" autocomplete="name" required></p><p><label for="contact-email">Email address</label><br><input type="email" id="contact-email" name="contact-email" autocomplete="email" required></p><p><label for="contact-subject">Subject</label><br><input type="text" id="contact-subject" name="contact-subject" required></p><p><label for="contact-message">Message</label><br><textarea id="contact-message" name="contact-message" rows="8" cols="50" required></textarea></p><button type="submit">Send message</button></form><p class="notice"><strong>Development notice:</strong> Validation responses and email processing will be added in Part 3.</p></section>
   </main>
-
-  <footer>
-    <p><strong>FreshBasket Neighbourhood Grocer</strong> — a fictional organisation created for the WEDE5020 POE.</p>
-    <p><a href="contact.html">Contact us</a> | <a href="README.md">Project documentation</a></p>
-    <p>&copy; 2026 FreshBasket Neighbourhood Grocer.</p>
-  </footer>
-</body>
-</html>
+  <footer class="site-footer"><p><strong>Savanna Flame Kitchen</strong> — a fictional organisation created for the WEDE5020 POE.</p><p><a href="contact.html">Contact us</a> | <a href="README.md">Project documentation</a></p><p>&copy; 2026 Savanna Flame Kitchen.</p></footer>
+</body></html>

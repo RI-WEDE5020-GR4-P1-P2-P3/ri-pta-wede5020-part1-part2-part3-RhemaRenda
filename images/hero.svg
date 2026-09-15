@@ -1,18 +1,1 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="525" viewBox="0 0 1200 525" role="img" aria-labelledby="title desc">
-  <title id="title">FreshBasket local produce hero illustration</title>
-  <desc id="desc">A basket of vegetables with local farm fields behind it</desc>
-  <rect width="1200" height="525" fill="#fff4d6"/>
-  <circle cx="1040" cy="88" r="52" fill="#e7b94c"/>
-  <path d="M0 300Q260 180 520 300T1200 280V525H0z" fill="#9dbb7e"/>
-  <path d="M0 360Q300 250 600 365T1200 340V525H0z" fill="#4d7c5c"/>
-  <g transform="translate(470 130)">
-    <path d="M60 140h330l-34 215H94z" fill="#d79d4e" stroke="#1f4d3a" stroke-width="12"/>
-    <path d="M130 140c18-92 60-125 95-125s76 33 94 125" fill="none" stroke="#1f4d3a" stroke-width="14"/>
-    <circle cx="125" cy="125" r="55" fill="#d94d3f"/>
-    <ellipse cx="230" cy="105" rx="46" ry="74" fill="#6e9d49"/>
-    <path d="M320 155c-60-80 25-118 77-72-10 66-36 91-77 72z" fill="#2d6a3f"/>
-    <path d="M184 130c-45-70 20-104 64-62-6 52-28 76-64 62z" fill="#f0a540"/>
-  </g>
-  <text x="70" y="95" font-family="Arial, sans-serif" font-size="48" font-weight="700" fill="#1f4d3a">Fresh food. Fair access.</text>
-  <text x="72" y="145" font-family="Arial, sans-serif" font-size="26" fill="#5c574b">Supporting Thohoyandou's community and local farmers.</text>
-</svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 420" role="img" aria-labelledby="title desc"><title id="title">Savanna Flame Kitchen meal</title><desc id="desc">A warm restaurant table with a plate of traditional food, a burger and a takeaway bag.</desc><rect width="960" height="420" fill="#332d29"/><circle cx="165" cy="72" r="95" fill="#a84a2a" opacity=".45"/><circle cx="820" cy="350" r="140" fill="#557a46" opacity=".35"/><rect y="285" width="960" height="135" fill="#6f4028"/><ellipse cx="330" cy="285" rx="210" ry="82" fill="#fff7e8"/><ellipse cx="330" cy="282" rx="155" ry="58" fill="#e9d8b7"/><circle cx="280" cy="270" r="48" fill="#f4d06f"/><path d="M355 238c70 8 103 35 112 68-69 35-128 28-175-2 4-30 23-55 63-66z" fill="#7e3e29"/><circle cx="399" cy="267" r="12" fill="#557a46"/><circle cx="425" cy="286" r="10" fill="#557a46"/><g transform="translate(590 168)"><path d="M20 70c8-43 47-67 92-67s84 24 92 67z" fill="#d99a47"/><path d="M13 78h198l-18 30H32z" fill="#557a46"/><path d="M27 110h170l-14 28H41z" fill="#6f3024"/><path d="M35 142h150c-5 30-31 46-75 46S40 172 35 142z" fill="#d99a47"/></g><g transform="translate(735 55)"><path d="M0 45h145l-12 190H12z" fill="#fff7e8"/><path d="M42 45c0-47 61-47 61 0" fill="none" stroke="#a84a2a" stroke-width="9"/><path d="M72 87c15 19 7 31-3 42-10-12-16-24 3-42z" fill="#e06a3b"/><text x="25" y="167" fill="#252525" font-family="Georgia,serif" font-size="21" font-weight="700">SAVANNA</text><text x="36" y="192" fill="#a84a2a" font-family="Arial,sans-serif" font-size="15" font-weight="700">24 / 7</text></g></svg>

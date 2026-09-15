@@ -1,91 +1,19 @@
 <!DOCTYPE html>
 <html lang="en-ZA">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Send FreshBasket a stock, collection, delivery, supplier or community-share enquiry.">
-  <title>Enquiries and Orders | FreshBasket</title>
-</head>
+<head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><meta name="description" content="Enquire about Savanna Flame Kitchen menu items, collection, delivery, catering, student specials or senior discounts."><title>Food and Service Enquiries | Savanna Flame Kitchen</title><link rel="stylesheet" href="css/style.css"></head>
 <body>
-  <header>
-    <a href="index.html"><img src="images/logo.svg" alt="FreshBasket Neighbourhood Grocer logo" width="220" height="80"></a>
-    <nav aria-label="Main navigation">
-      <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="about.html">About Us</a></li>
-        <li><a href="products.html">Products</a></li>
-        <li><a href="enquiry.html" aria-current="page">Enquiry</a></li>
-        <li><a href="contact.html">Contact</a></li>
-      </ul>
-    </nav>
-  </header>
-
+  <header class="site-header"><a class="brand" href="index.html"><img src="images/logo.svg" alt="Savanna Flame Kitchen logo" width="260" height="75"></a><nav aria-label="Main navigation"><ul><li><a href="index.html">Home</a></li><li><a href="about.html">About</a></li><li><a href="menu.html">Menu</a></li><li><a href="enquiry.html" aria-current="page">Enquiry</a></li><li><a href="contact.html">Contact</a></li></ul></nav></header>
   <main>
-    <header>
-      <h1>FreshBasket enquiries</h1>
-      <p>Use this form to enquire about products, collection, delivery, supplying the store or the proposed community-share model.</p>
-    </header>
-
-    <!-- The form has an HTML structure in Part 1. Processing and JavaScript validation follow in Part 3. -->
-    <section id="stock-enquiry" aria-labelledby="form-title">
-      <h2 id="form-title">Submit an enquiry</h2>
+    <header class="page-intro"><p class="eyebrow">Food and service information</p><h1>Send an enquiry</h1><p>Use this form to ask about a menu item, collection, delivery, catering or a customer discount.</p></header>
+    <!-- Part 2 styles the complete form; JavaScript processing belongs to Part 3. -->
+    <section class="section form-section" aria-labelledby="form-title"><h2 id="form-title">Tell us what you need</h2>
       <form action="#" method="post">
-        <fieldset>
-          <legend>Your details</legend>
-          <p>
-            <label for="full-name">Full name</label><br>
-            <input type="text" id="full-name" name="full-name" autocomplete="name" required>
-          </p>
-          <p>
-            <label for="email">Email address</label><br>
-            <input type="email" id="email" name="email" autocomplete="email" required>
-          </p>
-          <p>
-            <label for="phone">Telephone number</label><br>
-            <input type="tel" id="phone" name="phone" autocomplete="tel" placeholder="e.g. 071 234 5678" required>
-          </p>
-        </fieldset>
-
-        <fieldset id="order-enquiry">
-          <legend>Enquiry information</legend>
-          <p>
-            <label for="enquiry-type">What would you like help with?</label><br>
-            <select id="enquiry-type" name="enquiry-type" required>
-              <option value="">Select one</option>
-              <option value="stock">Product availability</option>
-              <option value="collection">Collection order</option>
-              <option value="delivery">Delivery order</option>
-              <option value="coupon">Coupon question</option>
-              <option value="supplier">Local farmer or supplier enquiry</option>
-              <option value="shares">Community-share enquiry</option>
-              <option value="employment">Local youth employment enquiry</option>
-            </select>
-          </p>
-          <p>
-            <label for="preferred-location">Preferred location</label><br>
-            <select id="preferred-location" name="preferred-location">
-              <option value="main-store">Thohoyandou Main Store</option>
-              <option value="collection-hub">Sibasa Collection Hub</option>
-            </select>
-          </p>
-          <p>
-            <label for="message">Products or enquiry details</label><br>
-            <textarea id="message" name="message" rows="8" cols="50" required></textarea>
-          </p>
-          <p>
-            <label><input type="checkbox" name="permission" required> I give permission for FreshBasket to contact me about this enquiry.</label>
-          </p>
-        </fieldset>
+        <fieldset><legend>Your details</legend><p><label for="full-name">Full name</label><br><input type="text" id="full-name" name="full-name" autocomplete="name" required></p><p><label for="email">Email address</label><br><input type="email" id="email" name="email" autocomplete="email" required></p><p><label for="phone">Telephone number</label><br><input type="tel" id="phone" name="phone" autocomplete="tel" placeholder="e.g. 071 234 5678" required></p><p><label for="contact-method">Preferred response</label><br><select id="contact-method" name="contact-method"><option value="email">Email</option><option value="phone">Telephone</option></select></p></fieldset>
+        <fieldset><legend>Enquiry information</legend><p><label for="enquiry-type">Enquiry type</label><br><select id="enquiry-type" name="enquiry-type" required><option value="">Select one</option><option value="menu">Menu availability</option><option value="collection">Collection</option><option value="delivery">Delivery</option><option value="catering">Catering</option><option value="student">Student special</option><option value="senior">Senior-citizen discount</option></select></p><p><label for="service-time">Preferred service time</label><br><input type="datetime-local" id="service-time" name="service-time"></p><p class="full-field"><label for="message">Order or enquiry details</label><br><textarea id="message" name="message" rows="8" cols="50" required></textarea></p><p class="full-field"><label><input type="checkbox" name="permission" required> I give permission for Savanna Flame Kitchen to contact me about this enquiry.</label></p></fieldset>
         <button type="submit">Submit enquiry</button>
       </form>
-      <p><strong>Part 1 notice:</strong> This form is not yet connected to a server. Client-side validation and response processing will be implemented in Part 3.</p>
+      <p class="notice"><strong>Development notice:</strong> This Part 2 form demonstrates structure and responsive styling. Validation responses and processing will be implemented in Part 3.</p>
     </section>
   </main>
-
-  <footer>
-    <p><strong>FreshBasket Neighbourhood Grocer</strong> — a fictional organisation created for the WEDE5020 POE.</p>
-    <p><a href="contact.html">Contact us</a> | <a href="README.md">Project documentation</a></p>
-    <p>&copy; 2026 FreshBasket Neighbourhood Grocer.</p>
-  </footer>
-</body>
-</html>
+  <footer class="site-footer"><p><strong>Savanna Flame Kitchen</strong> — a fictional organisation created for the WEDE5020 POE.</p><p><a href="contact.html">Contact us</a> | <a href="README.md">Project documentation</a></p><p>&copy; 2026 Savanna Flame Kitchen.</p></footer>
+</body></html>
