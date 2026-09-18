@@ -10,9 +10,9 @@
    - Guided meaningful HTML page structure.
 5. W3C (2024) *Web Content Accessibility Guidelines (WCAG) 2.2*. Available at: https://www.w3.org/TR/WCAG22/ (Accessed: 14 August 2026).
    - Guided labels, alternative text, contrast and keyboard focus.
-6. OpenAI (2026) *ChatGPT* [Large language model]. Available at: https://chatgpt.com/ (Accessed: 15 September 2026).
-   - Used as disclosed assistance for structure, responsive CSS, original SVG assets, documentation and checks.
+6. OpenAI (2026) *ChatGPT* [Large language model and image-generation tool]. Available at: https://chatgpt.com/ (Accessed: 18 September 2026).
+   - Used as disclosed assistance for structure, responsive CSS, original food and customer photographs, documentation and checks.
 
 ## Original assets
 
-The logo, hero, meal and specials illustrations are original SVG assets created for this fictional student project. The responsive PNG files were exported from the original hero SVG.
+The hero, meal and customer photographs were generated specifically for this student project. The food images show pap, beef stew, morogo, chakalaka, grilled chicken, slap chips and bread commonly associated with local takeaway meals in Thohoyandou. The customer images show a young student and an older customer for the savings section. The hero photograph was exported at three responsive sizes. The site name is displayed as plain HTML text instead of an image logo.

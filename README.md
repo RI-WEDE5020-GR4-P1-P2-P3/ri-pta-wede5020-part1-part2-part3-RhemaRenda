@@ -26,11 +26,11 @@ Savanna Flame Kitchen is a fictional independent restaurant proposed for Thohoya
 - Five linked semantic HTML pages: Home, About, Menu, Enquiry and Contact.
 - External CSS shared by every page.
 - Responsive Grid and Flexbox layouts.
-- Fluid typography, relative spacing and responsive navigation.
+- Clear typography, relative spacing and responsive navigation.
 - `picture`, `srcset` and `sizes` for the hero image.
-- Hover, focus and active states for interactive elements.
+- Hover, keyboard-focus, form-focus, checked-menu and active-page states for interactive elements.
 - Menu/service enquiry form and separate general contact form.
-- Original SVG illustrations and three responsive hero PNG variants.
+- Original AI-assisted food photographs and three responsive hero image sizes.
 
 JavaScript validation, live form responses, email processing, maps, galleries, search and deployment belong to Part 3.
 
@@ -49,14 +49,13 @@ Savanna-Flame-Kitchen-Part2/
 |-- css/
 |   `-- style.css
 |-- images/
-|   |-- logo.svg
-|   |-- hero.svg
-|   |-- hero-640.png
-|   |-- hero-1024.png
-|   |-- hero-1440.png
-|   |-- traditional-meal.svg
-|   |-- fast-food.svg
-|   `-- specials.svg
+|   |-- venda-food-hero-640.jpg
+|   |-- venda-food-hero-1024.jpg
+|   |-- venda-food-hero-1440.jpg
+|   |-- pap-beef-stew.jpg
+|   |-- grilled-chicken-chips.jpg
+|   |-- student-special.jpg
+|   `-- senior-discount.jpg
 |-- screenshots/
 |   `-- README.md
 `-- documents/
@@ -65,24 +64,23 @@ Savanna-Flame-Kitchen-Part2/
     `-- source-register.md
 ```
 
-## Design system
+## Design choices
 
-- **Terracotta (`#A84A2A`):** warmth, flame and prepared food.
-- **Charcoal (`#252525`):** strong contrast and a modern dark identity.
-- **Cream (`#FFF7E8`):** warmth and readable content surfaces.
-- **Herb green (`#557A46`):** fresh ingredients and balance.
-- **Gold (`#E6B95E`):** calls to action and the active navigation link.
-- **Typography:** Georgia headings create a welcoming restaurant character; Arial/Helvetica body text remains clear on common devices.
+- **Black (`#0C0C0C`):** used as the main background for a simple evening takeaway identity.
+- **Dark brown (`#7A3517`):** used for navigation highlights and buttons.
+- **Gold (`#F2B544`):** used for borders, links and focus indicators.
+- **Typography:** Arial and Helvetica are used throughout to keep the design simple and readable.
+- **Branding:** the restaurant name is plain HTML text; no image logo is used.
 
 ## Responsive behaviour
 
 | View | Width | Main adjustments |
 |---|---:|---|
-| Desktop | Above 1024px | Horizontal navigation, two-column hero and three-column cards |
-| Tablet | 641-1024px | Stacked header/hero and two-column cards |
-| Mobile | Up to 640px | Single-column content, compact navigation and full-width buttons |
+| Desktop | Above 800px | Horizontal navigation and two-column content grids |
+| Tablet | 601-800px | Stacked header, adjusted headings and flexible media sections |
+| Mobile | Up to 600px | Hamburger navigation, single-column content, smaller typography and full-width buttons |
 
-Spacing and type use `rem`; layout widths use `%`, `min()` and `clamp()`; media-query breakpoints use `rem`. Keyboard focus uses a high-contrast gold outline. Reduced-motion preferences are respected.
+Spacing and type use simple pixel and `rem` values, while the main layout uses percentages and two beginner-friendly media queries. The organisation name is plain HTML text rather than an image logo. On mobile screens, a three-line hamburger icon opens and closes the navigation menu using an HTML checkbox and CSS.
 
 ## Responsive test evidence
 
@@ -112,6 +110,31 @@ Part 1 result: **60/100**.
 | Overall feedback raised excessive AI use | Recorded AI assistance honestly and added a student review checklist. The student must understand, test and disclose assisted work. |
 
 ## Changelog
+
+### 18 September 2026 - Customer savings portraits
+
+- Replaced the student and senior discount icon illustration with two original portrait images.
+- Added a responsive two-card savings section that becomes one column on mobile screens.
+- Kept the discount information short and easy to understand.
+
+### 18 September 2026 - Local food photography and reference-inspired layout
+
+- Added original AI-assisted photographs of pap, beef stew, morogo, chakalaka, grilled chicken, slap chips and bread.
+- Exported the hero photograph at 640px, 1024px and 1440px for responsive loading.
+- Changed the home hero to a dark photographic banner with readable overlay text.
+- Added bordered food cards and text links inspired by the supplied layout references without copying their branding or content.
+- Expanded the footer with restaurant information, quick links and project information.
+- Kept the restaurant name as plain HTML text and retained the CSS-only mobile hamburger menu.
+
+### 18 September 2026 - Simplified design and updated responsive navigation
+
+- Removed the image logo and replaced it with the restaurant name in plain HTML text.
+- Simplified the desktop design by removing large presentation-style panels, rounded corners and shadows.
+- Changed the page to a basic Arial typeface, normal heading sizes and simple bordered content sections.
+- Added a CSS-only hamburger menu to all five pages for mobile screens.
+- Added clearer hover, keyboard-focus, form-focus and checked-menu states.
+- Improved tablet and mobile typography adjustments to match the updated Part 2 rubric.
+- Rechecked all five HTML pages and confirmed that the local navigation and asset paths are valid.
 
 ### 15 September 2026 - Part 2 correction after graded feedback
 
@@ -156,7 +179,7 @@ OpenAI (2026) *ChatGPT* [Large language model]. Available at: https://chatgpt.co
 
 ## AI-use declaration
 
-The student supplied the central Savanna Flame Kitchen decisions: Thohoyandou, traditional and fast-food meals, 24-hour operation, collection and delivery, student specials and senior-citizen discounts. ChatGPT assisted with organising content, responsive HTML/CSS scaffolding, original SVG illustrations, documentation and checks. The student remains responsible for reviewing and understanding the work, making their own final decisions, capturing genuine test evidence and following the institution's AI-disclosure requirements.
+The student supplied the central Savanna Flame Kitchen decisions: Thohoyandou, traditional and fast-food meals, 24-hour operation, collection and delivery, student specials and senior-citizen discounts. ChatGPT assisted with organising content, responsive HTML/CSS scaffolding, generating original food and customer photographs, documentation and checks. The student remains responsible for reviewing and understanding the work, making their own final decisions, capturing genuine test evidence and following the institution's AI-disclosure requirements.
 
 ## Student review checklist
 
