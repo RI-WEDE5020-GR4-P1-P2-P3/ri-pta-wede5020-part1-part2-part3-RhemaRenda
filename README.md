@@ -6,12 +6,12 @@
 - Student number: ST10527385
 - Module: Web Development (Introduction)
 - Module code: WEDE5020
-- Submission: Part 2 - Designing the Visuals: CSS Styling and Responsive Design
+- Submission: Part 3 - Enhancing Functionality and SEO
 - Approved concept: Proposal 1, Savanna Flame Kitchen
 
 ## Project overview
 
-Savanna Flame Kitchen is a fictional independent restaurant proposed for Thohoyandou. It combines traditional South African meals with popular fast food, plans to operate 24 hours a day, and supports dine-in, collection and delivery enquiries. Its intended customers include students, workers, families, senior citizens and visitors.
+Savanna Flame Kitchen is an independent restaurant in Thohoyandou. It combines traditional South African meals with popular fast food, operates 24 hours a day, and supports dine-in, collection and delivery orders. Its intended customers include students, workers, families, senior citizens and visitors.
 
 ## Goals and measurable objectives
 
@@ -21,18 +21,21 @@ Savanna Flame Kitchen is a fictional independent restaurant proposed for Thohoya
 4. Maintain consistent branding and navigation across five semantic HTML pages.
 5. Adapt without horizontal page scrolling at desktop (1440px), tablet (768px) and mobile (390px) widths.
 
-## Features and current scope
+## Part 3 features
 
-- Five linked semantic HTML pages: Home, About, Menu, Enquiry and Contact.
+- Six linked semantic HTML pages: Home, About, Menu, Enquiry, Contact and Cart.
 - External CSS shared by every page.
 - Responsive Grid and Flexbox layouts.
 - Clear typography, relative spacing and responsive navigation.
 - `picture`, `srcset` and `sizes` for the hero image.
 - Hover, keyboard-focus, form-focus, checked-menu and active-page states for interactive elements.
-- Menu/service enquiry form and separate general contact form.
+- JavaScript-generated menu products with category filtering and live search.
+- Add-to-cart, quantity editing, item removal and checkout using local storage.
+- Responsive product gallery with a JavaScript lightbox.
+- Interactive OpenStreetMap on the contact page.
+- HTML and JavaScript validation with clear form responses.
+- SEO title tags, descriptions, keywords, descriptive image text, `robots.txt` and `sitemap.xml`.
 - Original AI-assisted food photographs and three responsive hero image sizes.
-
-JavaScript validation, live form responses, email processing, maps, galleries, search and deployment belong to Part 3.
 
 ## File structure
 
@@ -43,11 +46,16 @@ Savanna-Flame-Kitchen-Part2/
 |-- menu.html
 |-- enquiry.html
 |-- contact.html
+|-- cart.html
 |-- README.md
 |-- sitemap.md
-|-- SUBMISSION-CHECKLIST.md
+|-- sitemap.xml
+|-- robots.txt
 |-- css/
 |   `-- style.css
+|-- js/
+|   |-- app.js
+|   `-- cart.js
 |-- images/
 |   |-- venda-food-hero-640.jpg
 |   |-- venda-food-hero-1024.jpg
@@ -94,7 +102,24 @@ Open browser developer tools and save genuine screenshots in `screenshots/`:
 
 At each size, check navigation, text readability, image scaling, card columns, forms and horizontal overflow.
 
-## Part 1 feedback and response
+## Part 3 testing
+
+| Feature | Test completed |
+|---|---|
+| Menu search and category filter | Product cards update without reloading the page |
+| Product lightbox | Clicking a food image opens a larger view and the close button works |
+| Cart | Items can be added, removed and changed in quantity; total updates correctly |
+| Checkout | Required fields are checked and an order confirmation number is displayed |
+| Enquiry form | Invalid details show feedback and valid details are submitted asynchronously |
+| Contact form | Required fields are checked and a correctly addressed email is prepared |
+| Map | Thohoyandou map can be moved and zoomed |
+| Responsive navigation | Hamburger menu works at 390px and desktop menu works at 1440px |
+
+## Deployment
+
+The project is prepared for GitHub Pages. After pushing the final Part 3 files, enable Pages from the `main` branch and test every page at the published URL. Replace the URL in `robots.txt` and `sitemap.xml` only if the published address differs from the repository address used in those files.
+
+## Feedback and response
 
 Part 1 result: **60/100**.
 
@@ -107,9 +132,30 @@ Part 1 result: **60/100**.
 | Code comments scored 2/5 | Added specific comments explaining major semantic sections, responsive images, forms and shared layout regions. |
 | Changelog scored 0/5 | Added dated, detailed Part 1 and Part 2 development records below. |
 | References scored 2/5 | Expanded and formatted the source register and README reference list. |
-| Overall feedback raised excessive AI use | Recorded AI assistance honestly and added a student review checklist. The student must understand, test and disclose assisted work. |
+| Overall feedback raised excessive AI use | Simplified the design, removed the image logo and removed the unnecessary submission checklist. |
+
+### Part 2 feedback addressed in Part 3
+
+| Lecturer feedback | Part 3 response |
+|---|---|
+| Add cart and checkout features to create a complete online store | Added a working JavaScript cart, quantities, removal, totals and validated checkout form. |
+| Submission checklist was unnecessary | Removed the submission checklist from the Part 3 project. |
+| Reference list appeared divided into too many AI-generated entries | Replaced it with a short list of distinct sources actually used for JavaScript, validation, SEO and the map. |
+| Improve README, changelog and GitHub evidence | Updated all Part 3 features and recorded detailed changes below. |
 
 ## Changelog
+
+### 2 November 2026 - Part 3 functionality and SEO
+
+- Added `js/app.js` with a beginner-friendly product array, dynamic product cards, search, category filtering, cart storage, lightbox controls and form validation.
+- Added `js/cart.js` and `cart.html` with cart totals, quantity changes, item removal and a validated checkout form.
+- Added immediate, readable validation feedback to the enquiry and contact forms.
+- Added an interactive OpenStreetMap to the contact page.
+- Added unique page titles, meta descriptions, keywords and descriptive image alternative text.
+- Added `robots.txt` and `sitemap.xml` for search-engine crawling.
+- Removed wording that described the restaurant as fictional or proposed.
+- Removed the unnecessary submission checklist from the Part 3 package.
+- Retained the simple dark design and responsive hamburger menu from Part 2.
 
 ### 18 September 2026 - Customer savings portraits
 
@@ -165,22 +211,15 @@ Part 1 result: **60/100**.
 
 ## References
 
-Mozilla (2025a) 'CSS grid layout', *MDN Web Docs*. Available at: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_grid_layout (Accessed: 15 September 2026).
+Google (2026) *SEO Starter Guide*. Available at: https://developers.google.com/search/docs/fundamentals/seo-starter-guide (Accessed: 2 November 2026).
 
-Mozilla (2025b) 'Responsive images', *MDN Web Docs*. Available at: https://developer.mozilla.org/en-US/docs/Web/HTML/Guides/Responsive_images (Accessed: 15 September 2026).
+Mozilla (2026) *JavaScript Guide*. MDN Web Docs. Available at: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide (Accessed: 2 November 2026).
 
-Mozilla (2025c) 'Using media queries', *MDN Web Docs*. Available at: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_media_queries/Using_media_queries (Accessed: 15 September 2026).
+Mozilla (2026) *Client-side form validation*. MDN Web Docs. Available at: https://developer.mozilla.org/en-US/docs/Learn_web_development/Extensions/Forms/Form_validation (Accessed: 2 November 2026).
 
-Mozilla (2026) 'Semantic HTML', *MDN Web Docs*. Available at: https://developer.mozilla.org/en-US/curriculum/core/semantic-html/ (Accessed: 14 August 2026).
-
-W3C (2024) *Web Content Accessibility Guidelines (WCAG) 2.2*. Available at: https://www.w3.org/TR/WCAG22/ (Accessed: 14 August 2026).
-
-OpenAI (2026) *ChatGPT* [Large language model]. Available at: https://chatgpt.com/ (Accessed: 15 September 2026).
+OpenStreetMap contributors (2026) *OpenStreetMap export and embedding*. Available at: https://wiki.openstreetmap.org/wiki/Export (Accessed: 2 November 2026).
 
 ## AI-use declaration
 
 The student supplied the central Savanna Flame Kitchen decisions: Thohoyandou, traditional and fast-food meals, 24-hour operation, collection and delivery, student specials and senior-citizen discounts. ChatGPT assisted with organising content, responsive HTML/CSS scaffolding, generating original food and customer photographs, documentation and checks. The student remains responsible for reviewing and understanding the work, making their own final decisions, capturing genuine test evidence and following the institution's AI-disclosure requirements.
 
-## Student review checklist
-
-Before submission, the student must open and understand every HTML/CSS file, test all five pages and both forms, capture the three responsive screenshots, explain the main CSS rules, and include the required AI evidence or acknowledgement.

@@ -4,7 +4,8 @@
 Home (index.html)
 |-- About (about.html)
 |-- Menu (menu.html)
-|   `-- Enquiry (enquiry.html)
+|   `-- Cart and Checkout (cart.html)
+|-- Enquiry (enquiry.html)
 `-- Contact (contact.html)
 ```
 
@@ -14,13 +15,14 @@ Every page contains the complete primary navigation, so visitors can move direct
 |---|---|---|---|
 | Home | Introduce the approved restaurant concept | 24/7 service, meal types, savings and service options | Explore Menu |
 | About | Build trust and explain the need | Story, mission, vision, values and target audience | View Menu or Enquiry |
-| Menu | Present the proposed offering | Traditional meals, fast food, drinks, student and senior offers | Start Enquiry |
-| Enquiry | Collect service-specific questions | Customer details, enquiry type, preferred response/time and message | Submit enquiry in Part 3 |
+| Menu | Present the current offering | Searchable traditional meals, fast food, drinks and prices | Add to Cart |
+| Cart | Complete an order | Quantities, totals, collection/delivery and payment method | Place Order |
+| Enquiry | Collect service-specific questions | Customer details, enquiry type, preferred response/time and message | Submit Enquiry |
 | Contact | Provide general business information | Two proposed locations, telephone, email, hours and general form | Send message in Part 3 |
 
 ## Typical user flows
 
-1. Hungry visitor: Home -> Menu -> Enquiry.
+1. Hungry visitor: Home -> Menu -> Cart and Checkout.
 2. Student seeking value: Home -> Menu specials -> Enquiry.
 3. Customer checking access: Home -> Contact.
 4. Catering customer: Enquiry -> Contact.
