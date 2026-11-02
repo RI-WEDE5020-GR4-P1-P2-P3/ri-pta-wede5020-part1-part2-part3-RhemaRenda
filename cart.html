@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en-ZA">
+<head>
+  <meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Review your Savanna Flame Kitchen order and complete checkout for collection or delivery in Thohoyandou.">
+  <meta name="keywords" content="Thohoyandou food order, Venda food checkout, takeaway cart">
+  <title>Cart and Checkout | Savanna Flame Kitchen</title>
+  <link rel="stylesheet" href="css/style.css"><script src="js/app.js" defer></script><script src="js/cart.js" defer></script>
+</head>
+<body>
+  <header class="site-header"><a class="brand" href="index.html">Savanna Flame Kitchen</a><input class="nav-toggle" type="checkbox" id="nav-toggle"><label class="hamburger" for="nav-toggle" aria-label="Open or close navigation"><span></span><span></span><span></span></label><nav aria-label="Main navigation"><ul><li><a href="index.html">Home</a></li><li><a href="about.html">About</a></li><li><a href="menu.html">Menu</a></li><li><a href="enquiry.html">Enquiry</a></li><li><a href="contact.html">Contact</a></li><li><a href="cart.html" aria-current="page">Cart (<span class="cart-count">0</span>)</a></li></ul></nav></header>
+  <main>
+    <header class="page-intro"><p class="eyebrow">Your food order</p><h1>Cart and checkout</h1><p>Review your meals, choose collection or delivery and place your order.</p></header>
+    <section class="section" aria-labelledby="cart-title"><h2 id="cart-title">Your cart</h2><div id="cart-items"></div><p class="cart-total">Total: <strong id="cart-total">R0.00</strong></p></section>
+    <section class="section form-section" aria-labelledby="checkout-title"><h2 id="checkout-title">Checkout details</h2>
+      <form id="checkout-form" action="#" method="post">
+        <p><label for="checkout-name">Full name</label><input id="checkout-name" name="name" type="text" minlength="2" required></p>
+        <p><label for="checkout-phone">Telephone number</label><input id="checkout-phone" name="phone" type="tel" pattern="0[6-8][0-9]{8}" placeholder="0712345678" required></p>
+        <p><label for="order-method">Order method</label><select id="order-method" name="method" required><option value="">Choose one</option><option>Collection</option><option>Delivery</option></select></p>
+        <p><label for="checkout-address">Delivery address or collection note</label><textarea id="checkout-address" name="address" minlength="5" required></textarea></p>
+        <p><label for="payment">Payment method</label><select id="payment" name="payment" required><option value="">Choose one</option><option>Cash on collection</option><option>Card on collection</option><option>Cash on delivery</option></select></p>
+        <button type="submit">Place order</button><p class="form-status status-message" aria-live="polite"></p>
+      </form>
+    </section>
+  </main>
+  <footer class="site-footer"><div class="footer-grid"><section><h2>Savanna Flame Kitchen</h2><p>Local meals and takeaway favourites for Thohoyandou.</p></section><section><h2>Quick links</h2><ul><li><a href="menu.html">Menu</a></li><li><a href="enquiry.html">Enquiry</a></li><li><a href="contact.html">Contact</a></li></ul></section><section><h2>Visit us</h2><p>Thohoyandou Central<br>Limpopo, South Africa</p></section></div><p>&copy; 2026 Savanna Flame Kitchen.</p></footer>
+</body></html>
